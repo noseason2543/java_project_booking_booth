@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tester">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tester"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".image_testFetch"/>
+        <activity android:name=".selectBoothtype"/>
+        <activity android:name=".show_general"/>
+        <activity android:name=".show_premium"/>
+        <activity android:name=".select_booth_event01"/>
+        <activity android:name=".ShowBoothActivity"/>
+        <activity android:name=".EditActivity" />
+        <activity android:name=".Event1" />
+        <activity android:name=".MainActivity2"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".settingActivity" />
+    </application>
+
+</manifest>

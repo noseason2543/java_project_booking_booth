@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tester"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Tester"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.tester.image_testFetch" />
+        <activity android:name="com.example.tester.selectBoothtype" />
+        <activity android:name="com.example.tester.show_general" />
+        <activity android:name="com.example.tester.show_premium" />
+        <activity android:name="com.example.tester.select_booth_event01" />
+        <activity android:name="com.example.tester.ShowBoothActivity" />
+        <activity android:name="com.example.tester.EditActivity" />
+        <activity android:name="com.example.tester.Event1" />
+        <activity android:name="com.example.tester.MainActivity2" />
+        <activity android:name="com.example.tester.MainActivity" />
+        <activity android:name="com.example.tester.Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.tester.SignUp" />
+        <activity android:name="com.example.tester.settingActivity" />
+    </application>
+
+</manifest>

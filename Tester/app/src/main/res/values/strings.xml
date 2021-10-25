@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tester</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="fullname">Fullname</string>
+    <string name="email">Email</string>
+    <string name="loginhere">Already have an account?</string>
+    <string name="signuphere">Create new account</string>
+    <string name="setting">Setting</string>
+    <string name="string_setting">Setting</string>
+    <string name="read">Read</string>
+    <string name="bookyourbooth">BookYourBooth</string>
+    <string name="logout">Logout</string>
+    <string name="edit">Edit</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+    <string name="accept">Accept</string>
+    <string name="warn1"><b><u>general?</u></b></string>
+    <string name="warn2"><b><u>premium?</u></b></string>
+    <string name="booth">Select Booth</string>
+    <string name="select">Select</string>
+</resources>

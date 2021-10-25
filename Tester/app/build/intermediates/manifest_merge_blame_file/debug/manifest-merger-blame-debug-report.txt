@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tester"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:7:5-34:19
+14        android:allowBackup="true"
+14-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] /Users/a/.gradle/caches/transforms-2/files-2.1/ff37b710ecf84191a2687617c776753e/core-1.3.1/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Tester"
+22-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:13:9-44
+23        android:usesCleartextTraffic="true" >
+23-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:14:9-44
+24        <activity android:name="com.example.tester.image_testFetch" />
+24-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:15:9-52
+24-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:15:19-50
+25        <activity android:name="com.example.tester.selectBoothtype" />
+25-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:16:9-52
+25-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:16:19-50
+26        <activity android:name="com.example.tester.show_general" />
+26-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:17:9-49
+26-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:17:19-47
+27        <activity android:name="com.example.tester.show_premium" />
+27-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:18:9-49
+27-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:18:19-47
+28        <activity android:name="com.example.tester.select_booth_event01" />
+28-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:19:9-57
+28-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:19:19-55
+29        <activity android:name="com.example.tester.ShowBoothActivity" />
+29-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:20:9-54
+29-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:20:19-52
+30        <activity android:name="com.example.tester.EditActivity" />
+30-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:21:9-50
+30-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:21:19-47
+31        <activity android:name="com.example.tester.Event1" />
+31-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:22:9-44
+31-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:22:19-41
+32        <activity android:name="com.example.tester.MainActivity2" />
+32-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:23:9-50
+32-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:23:19-48
+33        <activity android:name="com.example.tester.MainActivity" />
+33-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:24:9-50
+33-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:24:19-47
+34        <activity android:name="com.example.tester.Login" >
+34-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:25:9-31:16
+34-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:25:19-40
+35            <intent-filter>
+35-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:26:9-30:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:27:13-65
+36-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:27:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:29:13-73
+38-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:29:23-70
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.example.tester.SignUp" />
+41-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:32:9-44
+41-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:32:19-41
+42        <activity android:name="com.example.tester.settingActivity" />
+42-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:33:9-53
+42-->/Users/a/AndroidStudioProjects/Tester/app/src/main/AndroidManifest.xml:33:19-50
+43    </application>
+44
+45</manifest>
